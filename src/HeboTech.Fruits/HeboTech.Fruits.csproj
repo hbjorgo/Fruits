@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>HeboTech</Authors>
+    <PackageTags>service result serviceresult fruits</PackageTags>
+    <Description>Easily return results (the fruits of your work) from the services in your application. The caller can easily react based on the type of the result.</Description>
+    <Copyright>HeboTech</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/hbjorgo/Fruits</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/hbjorgo/Fruits</RepositoryUrl>
+    <PackageReleaseNotes>https://github.com/hbjorgo/Fruits/releases</PackageReleaseNotes>
+  </PropertyGroup>
+
+</Project>
