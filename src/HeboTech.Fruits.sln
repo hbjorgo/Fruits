@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeboTech.Fruits", "HeboTech.Fruits\HeboTech.Fruits.csproj", "{4DB64B14-1433-48E9-ABD8-36587A1B2563}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeboTech.Fruits.AspNetCore", "HeboTech.Fruits.AspNetCore\HeboTech.Fruits.AspNetCore.csproj", "{CF77515B-8B80-42AF-A9F0-0416505A05F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9C10B256-CCAF-42E3-AD3A-2C20927C8333}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeboTech.Fruits.Tests", "Tests\HeboTech.Fruits.Tests\HeboTech.Fruits.Tests.csproj", "{08B0CB1C-A2FC-4CED-8E89-4F23ED5CA0B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeboTech.Fruits.AspNetCore.Tests", "Tests\HeboTech.Fruits.AspNetCore.Tests\HeboTech.Fruits.AspNetCore.Tests.csproj", "{1B350521-AB1C-4886-86BF-EE5E1046E966}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DB64B14-1433-48E9-ABD8-36587A1B2563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DB64B14-1433-48E9-ABD8-36587A1B2563}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DB64B14-1433-48E9-ABD8-36587A1B2563}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DB64B14-1433-48E9-ABD8-36587A1B2563}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF77515B-8B80-42AF-A9F0-0416505A05F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF77515B-8B80-42AF-A9F0-0416505A05F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF77515B-8B80-42AF-A9F0-0416505A05F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF77515B-8B80-42AF-A9F0-0416505A05F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08B0CB1C-A2FC-4CED-8E89-4F23ED5CA0B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08B0CB1C-A2FC-4CED-8E89-4F23ED5CA0B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08B0CB1C-A2FC-4CED-8E89-4F23ED5CA0B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08B0CB1C-A2FC-4CED-8E89-4F23ED5CA0B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B350521-AB1C-4886-86BF-EE5E1046E966}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B350521-AB1C-4886-86BF-EE5E1046E966}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B350521-AB1C-4886-86BF-EE5E1046E966}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B350521-AB1C-4886-86BF-EE5E1046E966}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{08B0CB1C-A2FC-4CED-8E89-4F23ED5CA0B0} = {9C10B256-CCAF-42E3-AD3A-2C20927C8333}
+		{1B350521-AB1C-4886-86BF-EE5E1046E966} = {9C10B256-CCAF-42E3-AD3A-2C20927C8333}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86FD7D2F-E8D2-464F-9895-45CE8AC50941}
+	EndGlobalSection
+EndGlobal
