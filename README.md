@@ -42,7 +42,7 @@ public Result<MyData> GetResult()
 }
 ```
 
-### Controller action:
+### Controller:
 ```
 public class MyController : Controller
 {
