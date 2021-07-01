@@ -24,19 +24,19 @@ dotnet add package HeboTech.Fruits.AspNetCore
 ```
 public Result<MyData> GetResult()
 {
-	try
-	{
-		MyData myData = database.GetData();
+  try
+  {
+    MyData myData = database.GetData();
 
-		if (myData == null)
-			return new NotFoundResult<MyData>("MyData not found");
+    if (myData == null)
+      return new NotFoundResult<MyData>("MyData not found");
 
-		return new OkResult<MyData>(myData);
-	}
-	catch (Exception ex)
-	{
-		return new UnexpectedResult<MyData>("Something went wrong");
-	}
+    return new OkResult<MyData>(myData);
+  }
+  catch (Exception ex)
+  {
+    return new UnexpectedResult<MyData>("Something went wrong");
+  }
 }
 ```
 
@@ -44,12 +44,11 @@ public Result<MyData> GetResult()
 ```
 public class MyController : Controller
 {
-	[HttpGet]
-	public IActionResult Get()
-	{
-		Result<MyData> result = service.GetResult();
-		return this.FromResult(result); // This is the extension method
-	}
+  [HttpGet]
+  public IActionResult Get()
+  {
+    Result<MyData> result = service.GetResult();
+    return this.FromResult(result); // This is the extension method
+  }
 }
-
 ```
