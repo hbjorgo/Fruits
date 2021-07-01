@@ -1,13 +1,7 @@
 # Fruits
 [![CI](https://github.com/hbjorgo/Fruits/workflows/CI/badge.svg)](https://github.com/hbjorgo/Fruits)
-
 [![Nuget](https://img.shields.io/nuget/v/HeboTech.Fruits)](https://www.nuget.org/packages/HeboTech.Fruits)
-[![Nuget](https://img.shields.io/nuget/dt/HeboTech.Fruits)](https://www.nuget.org/packages/HeboTech.Fruits)
-(Fruits)
-
 [![Nuget](https://img.shields.io/nuget/v/HeboTech.Fruits.AspNetCore)](https://www.nuget.org/packages/HeboTech.Fruits.AspNetCore)
-[![Nuget](https://img.shields.io/nuget/dt/HeboTech.Fruits.AspNetCore)](https://www.nuget.org/packages/HeboTech.Fruits.AspNetCore)
-(Fruits.AspNetCore)
 
 
 Return the fruits of your work in your applications!
