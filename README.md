@@ -24,21 +24,19 @@ dotnet add package HeboTech.Fruits.AspNetCore
 ```
 public Result<MyData> GetResult()
 {
-	MyData myData = database.GetData();
-
-	if (myData == null)
-		return new NotFoundResult<MyData>("MyData not found");
-
 	try
 	{
-		myData.DoStuff();
+		MyData myData = database.GetData();
+
+		if (myData == null)
+			return new NotFoundResult<MyData>("MyData not found");
+
+		return new OkResult<MyData>(myData);
 	}
 	catch (Exception ex)
 	{
 		return new UnexpectedResult<MyData>("Something went wrong");
 	}
-
-	return new OkResult<MyData>(myData);
 }
 ```
 
